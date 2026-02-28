@@ -16,6 +16,7 @@ public:
 	bool IsEmpty();
 	int Length();
 	int Size();	
+	void Show();
 	static void TestBehavior();
 	~MyStack();
 };

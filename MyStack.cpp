@@ -42,6 +42,16 @@ void MyStack::Pop()
 		throw std::out_of_range("Stack is empty");
 	top--;
 }
+void MyStack::Show()
+{
+    if (IsEmpty())
+        std::cout << "The stack is empty" << std::endl;
+
+    for (int i = top; i >= 0; i--)
+    {
+        std::cout << "The value is : {" << arr[i] << "}" << std::endl;
+    }
+}
 MyStack::~MyStack()
 {
 	delete[] arr;

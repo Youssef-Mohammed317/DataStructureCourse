@@ -129,14 +129,20 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyCircularQueue.cpp" />
+    <ClCompile Include="MyDoublyLinkedList.cpp" />
+    <ClCompile Include="MyDoublyLinkedListCircularQueue.cpp" />
     <ClCompile Include="MyLinearQueue.cpp" />
     <ClCompile Include="MySinglyLinkedList.cpp" />
+    <ClCompile Include="MySinglyLinkedListStack.cpp" />
     <ClCompile Include="MyStack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyCircularQueue.h" />
+    <ClInclude Include="MyDoublyLinkedList.h" />
+    <ClInclude Include="MyDoublyLinkedListCircularQueue.h" />
     <ClInclude Include="MyLinearQueue.h" />
     <ClInclude Include="MySinglyLinkedList.h" />
+    <ClInclude Include="MySinglyLinkedListStack.h" />
     <ClInclude Include="MyStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

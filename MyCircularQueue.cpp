@@ -35,6 +35,7 @@ void MyCircularQueue::Enqueue(int value)
 
 	//arr[++rear] = value;
 
+    // if length removed then front = 0 if it -1
 	rear = (rear + 1) % size;
 	arr[rear] = value;
 	length++;
@@ -46,7 +47,7 @@ void MyCircularQueue::Dequeue()
 
 	//if (++front == size)
 	//	front = 0;
-
+    // length removed if(front == rear) {front = -1;rear= -1;} // and these the initial values
 	front = (front + 1) % size;
 	length--;
 }
